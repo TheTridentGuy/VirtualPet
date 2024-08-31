@@ -6,10 +6,10 @@ int y_size = pixel_size * image[0].length;
  
 // Processing BS, limiting my freedom >:( *eagle screeches*:
 public void setup() {
+  size(320, 320);
 }
 
 void draw() {
-  windowResize(x_size, y_size);
   for (int y=0; y<image.length; y++){
     for (int x=0; x<image[y].length; x++) {
       noStroke();
