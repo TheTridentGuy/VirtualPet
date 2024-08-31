@@ -14,7 +14,7 @@ void draw() {
     for (int x=0; x<image[y].length; x++) {
       noStroke();
       fill(image[x][y][0],image[x][y][1],image[x][y][2]);
-      square(y*pixel_size, x*pixel_size, pixel_size);
+      rect(y*pixel_size, x*pixel_size, pixel_size, pixel_size);
     }
   }
 }
